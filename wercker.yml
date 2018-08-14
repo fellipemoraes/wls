@@ -11,13 +11,3 @@ build:
       goals: install
       cache_repo: true
       version: 3.5.2
-name: weblogic-step
-version: 0.1.23
-description: Creates and configures a WebLogic Docker image.
-keywords:
-  - weblogic
-  - docker
-properties:
-  config:
-    type: string
-    required: true
